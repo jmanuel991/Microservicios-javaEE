@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="microservicios-eureka" />
+        <module name="commons-alumnos" />
+        <module name="microservicios-gateway" />
+        <module name="microservicios-usuarios" />
+        <module name="commons-examenes" />
+        <module name="microservicios-examenes" />
+        <module name="microservicios-cursos" />
+        <module name="commons-microservicios" />
+        <module name="microservicios-respuestas" />
+        <module name="microservicios-zuul" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="commons-alumnos" target="1.5" />
+      <module name="commons-examenes" target="1.5" />
+      <module name="commons-microservicios" target="1.5" />
+      <module name="microservicios-cursos" target="1.5" />
+      <module name="microservicios-eureka" target="1.5" />
+      <module name="microservicios-examenes" target="1.5" />
+      <module name="microservicios-gateway" target="1.5" />
+      <module name="microservicios-respuestas" target="1.5" />
+      <module name="microservicios-usuarios" target="1.5" />
+      <module name="microservicios-zuul" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
